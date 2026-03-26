@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | PhotoHub</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      color: #333;
+    }
+
+    /* HEADER */
+    .header {
+      background: #111;
+      color: #fff;
+      padding: 12px 25px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+    }
+
+    /* CONTENT */
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      font-size: 15px;
+    }
+
+    /* BUTTON */
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #25D366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+
+    /* MAP */
+    .map-section {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .map-text {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #aaa;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+      .logo {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo-container">
+      <img src="logo.png" alt="PhotoHub Logo" class="logo">
+      <h2>PhotoHub</h2>
+    </div>
+
+    <a href="index.html" style="color:white; text-decoration:none; font-size:14px;">
+      Home
+    </a>
+  </header>
+
+  <!-- CONTENT -->
+  <div class="container">
+
+    <h1>About Us</h1>
+
+    <p><strong>Welcome to PhotoHub</strong></p>
+
+    <p>
+      We have been proudly serving in this field for the past five years, building strong relationships with our customers through quality and trust. Over the years, we have successfully served more than <strong>60,000 happy customers</strong>.
+    </p>
+
+    <p>
+      On a daily basis, we handle and deliver over <strong>150 frames</strong>, ensuring consistent quality and timely service. We are also proud to offer <strong>all-India dispatch</strong>, making our products accessible to customers across the country.
+    </p>
+
+    <p>
+      Our store is based in <strong>Madurai</strong>, where we continue to provide reliable service and high-quality products to every customer.
+    </p>
+
+    <p>
+      At PhotoHub, our focus is on delivering high-quality frames and excellent customer satisfaction every single day.
+    </p>
+
+    <!-- MAP SECTION -->
+    <div class="map-section">
+      <h2>Our Location</h2>
+
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31445.17529476474!2d78.10399675955505!3d9.879960914397655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cfe4712c9205%3A0xddffec7ba4d91cb7!2sPhotohub%20Frames!5e0!3m2!1sen!2sin!4v1774517026809!5m2!1sen!2sin"
+        width="100%" 
+        height="350"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+
+      <p class="map-text">📍 Photohub Frames, Madurai, Tamil Nadu</p>
+
+      <a 
+        href="https://maps.app.goo.gl/VL6yoodXKBvfPVBF6"
+        target="_blank"
+        class="btn">
+        Get Directions
+      </a>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 PhotoHub. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
